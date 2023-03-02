@@ -1,0 +1,19 @@
+.container {
+    margin-top: 50px;
+}
+
+.thumbnail {
+    margin-bottom: 30px;
+}
+
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.title {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}

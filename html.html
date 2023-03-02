@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Galeria</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container text-center">
+		<h1>Zdjęcia mojego <strong>kota.</strong></h1>
+		<div id="keruzela" class="carousel slide" data-bs-ride="carousel">
+			
+			<ol class="carousel-indicators">
+				<li data-bs-target="#keruzela" data-bs-slide-to="0" class="active"></li>
+				<li data-bs-target="#keruzela" data-bs-slide-to="1"></li>
+				<li data-bs-target="#keruzela" data-bs-slide-to="2"></li>
+			</ol>
+            
+
+			<div class="carousel-inner container">
+				<div class="carousel-item active">
+					<img src="kot1.jpg" width="400" height="400">
+                    <div class="centered text-center">To <strong>jest</strong> zdjęcie mojego kota.</div>
+				</div>
+
+				<div class="carousel-item text-center">
+					<img src="kot2.jpg" width="400" height="400">
+                    <div class="centered text-center">To zdjęcie <strong>też</strong>  przedstawia mojego kota.</div>
+				</div>
+
+				<div class="carousel-item text-center">
+					<img src="kot3.jpg" width="400" height="400"> 
+                    <div class="centered">To zdjęcie <strong>równierz</strong> przedstawia mojego kota.</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#keruzela" data-bs-slide-to="0" class="thumbnail">
+					<img src="kot1.jpg" alt="kot1" width="400" height="400">
+				</a>
+			</div>
+
+			<div class="col-md-4">
+				<a href="#keruzela" data-bs-slide-to="1" class="thumbnail">
+					<img src="kot2.jpg" alt="kot2" width="400" height="400">
+				</a>
+			</div>
+
+			<div class="col-md-4">
+				<a href="#keruzela" data-bs-slide-to="2" class="thumbnail">
+					<img src="kot3.jpg" alt="kot3" width="416" height="400">
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
